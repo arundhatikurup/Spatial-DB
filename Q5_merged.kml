@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Folder>
+  <name>Convex Hull</name>
+  <open>1</open>
+  <description>
+  Computing Convex Hull
+  </description>
+
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+
+
+<Placemark>
+<name>Convex Hull</name>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+-118.284258,34.018707,0
+-118.284395,34.018715,0
+-118.285735,34.018877,0
+-118.288795,34.019634,0
+-118.289995,34.020058,0
+-118.286215,34.023983,0
+-118.282183,34.021684,0
+-118.283585,34.019438,0
+-118.284258,34.018707,0
+</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+
+</Folder>
+
+<Folder>
+  <name>KNN</name>
+  <open>1</open>
+  <description>
+  Four Nearest neighbors of VKC Library
+  </description>
+
+<Placemark> 
+ <LineString>
+  <coordinates>
+   -118.283998,34.021303,0. 
+   -118.283891,34.021975,0.
+  </coordinates>
+
+<Style> 
+  <LineStyle>  
+   <color>#ff0000ff</color>
+  </LineStyle> 
+ </Style>
+ </LineString>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>
+  -118.283998,34.021303,0. 
+  -118.283743,34.020065,0.
+  </coordinates>
+
+<Style> 
+  <LineStyle>  
+   <color>#ff0000ff</color>
+  </LineStyle> 
+ </Style>
+ </LineString>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>
+  -118.283998,34.021303,0. 
+  -118.282796,34.021748,0.
+  </coordinates>
+
+<Style> 
+  <LineStyle>  
+   <color>#ff0000ff</color>
+  </LineStyle> 
+ </Style>
+ </LineString>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>
+   -118.283998,34.021303,0.
+   -118.283303,34.020192,0.
+  </coordinates>
+
+<Style> 
+  <LineStyle>  
+   <color>#ff0000ff</color>
+  </LineStyle> 
+ </Style>
+ </LineString>
+</Placemark>
+
+
+</Folder>
+
+
+</Document>
+</kml>

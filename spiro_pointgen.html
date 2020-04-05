@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+<canvas id='canvas'></canvas>
+<script>
+var canvas = document.getElementById('canvas');
+if(canvas.getContext){
+var ctx = canvas.getContext('2d');
+ctx.beginPath();
+}
+
+var R=5,r=1,a=4;
+var x0 = R+r-a, y0 = 0;
+ctx.moveTo(150+10*x0, 150+10*y0);
+
+var cos = Math.cos, sin=Math.sin, pi=Math.PI, nRev=10;
+
+for(var t=0.0; t<(pi*nRev);t+=0.01){
+var x = (R+r)*cos((r/R)*t) - a*cos((1+r/R)*t);
+var y = (R+r)*sin((r/R)*t) - a*sin((1+r/R)*t);
+x = x/200;
+y = y/200;
+var lat = 34.021073, long = -118.285513;
+ctx.lineTo(150+10*x, 150+10*y);
+document.write(y+long+",");
+document.write(x+lat+",");
+document.write(" ");
+}
+ctx.stroke();
+
+</script>
+</body>
+</html>

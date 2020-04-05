@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Folder>
+  <name>USC Libraries</name>
+  <open>1</open>
+  <description>
+  Various USC Libraries on campus
+  </description>
+
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+
+
+
+<Placemark><name>Leavey Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.282796,34.021748</coordinates></Point>
+</Placemark>
+<Placemark><name>Doheny Memorial Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.283743,34.020065</coordinates></Point>
+</Placemark>
+<Placemark><name>VKC Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.283998,34.021303</coordinates></Point>
+</Placemark>
+<Placemark><name>Science and Engineering Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.288795,34.019634</coordinates></Point>
+</Placemark>
+<Placemark><name>Wilson Dental Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.286215,34.023983</coordinates></Point>
+</Placemark>
+
+</Folder>
+
+<Folder>
+  <name>USC Schools</name>
+  <open>1</open>
+  <description>
+  Various USC Schools on campus
+  </description>
+
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+
+<Placemark><name>USC Viterbi School of Engineering</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.289330,34.020597</coordinates></Point>
+</Placemark>
+<Placemark><name>USC Rossier School of Education</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.283891,34.021975</coordinates></Point>
+</Placemark>
+<Placemark><name>USC Gould School of Law</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.284258,34.018707</coordinates></Point>
+</Placemark>
+<Placemark><name>USC Sol Price School of Public Policy</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.283585,34.019438</coordinates></Point>
+</Placemark>
+<Placemark><name>USC Marshall School of Business</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.285735,34.018877</coordinates></Point>
+</Placemark>
+
+</Folder>
+
+<Folder>
+  <name>USC Cafes</name>
+  <open>1</open>
+  <description>
+  Various USC Cafes on campus
+  </description>
+
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+
+<Placemark><name>Little Galen Cafe</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.287093,34.022909</coordinates></Point>
+</Placemark>
+<Placemark><name>Tutor Hall Cafe</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.289995,34.020058</coordinates></Point>
+</Placemark>
+<Placemark><name>USC Law School Cafe</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.284395,34.018715</coordinates></Point>
+</Placemark>
+<Placemark><name>Literatea Cafe</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.283303,34.020192</coordinates></Point>
+</Placemark>
+<Placemark><name>Starbucks Cafe</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.282183,34.021684</coordinates></Point>
+</Placemark>
+
+</Folder>
+</Document>
+
+</kml>
